@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!--Button, timer will be in here (via javascript)-->
+        <button type="button" id="scoreShortcut">Highscores</button>
+        <p id="timer"></p>
+    </header>
+    <main>
+
+        <!--Display questions-->
+        <h1 id="title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio adipisci voluptates sed, nulla ex ducimus ea voluptatum explicabo iure reiciendis facilis. Provident adipisci nihil nemo officia aspernatur voluptatibus, velit aliquid!
+        </h1>
+
+        <!--Display questions, answer buttons, submission box-->
+        <section id="mainDisplay">
+            <!--Delete paragraph?-->
+            <p id="fillerText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis iure blanditiis doloribus perferendis obcaecati veniam laudantium deserunt necessitatibus commodi explicabo perspiciatis dolores accusamus quasi aspernatur, vero deleniti officiis a sequi?
+            </p>
+
+            <button type="button" id="start">Start Quiz</button>
+
+            <!--Hidden divs display lists of questions-->
+            <div id="Q1">
+                <ul>
+                    <li>
+                        <button type="button" class="correctButton">Comma</button>
+                    </li>
+                    <li>
+                        <button type="button" class="incorrectButton">Period</button>
+                    </li>
+                    <li>
+                        <button type="button" class="incorrectButton">Hashtag or Pound symbol</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="Q2">
+                <ul>
+                    <li>
+                        <button type="button" class="correctButton">Hashtag or Pound symbol</button>
+                    </li>
+                    <li>
+                        <button type="button" class="incorrectButton">Comma</button>
+                    </li>
+                    <li>
+                        <button type="button" class="incorrectButton">Period</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="Q3">
+                <ul>
+                    <li>
+                        <button type="button" class="correctButton">`For` Loop</button>
+                    </li>
+                    <li>
+                        <button type="button" class="incorrectButton">`If` Statement</button>
+                    </li>
+                    <li>
+                        <button type="button" class="incorrectButton">User-made Function</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="Q4">
+                <ul>
+                    <li>
+                        <button type="button" class="incorrectButton">ul</button>
+                    </li>
+                    <li>
+                        <button type="button" class="incorrectButton">h1</button>
+                    </li>
+                    <li>
+                        <button type="button" class="correctButton">article</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="Q5">
+                <ul>
+                    <li>
+                        <button type="button" class="incorrectButton">Curled\Curly Brackets</button>
+                    </li>
+                    <li>
+                        <button type="button" class="correctButton">Square brackers</button>
+                    </li>
+                    <li>
+                        <button type="button" class="incorrectButton">Angle BRackets</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="submit">
+                <label for="">Please give a name for your score!</label>
+                <input id='nameSubmit' type="text" name="text">
+            </div>
+
+            <div id="highscore">
+                <ul>
+
+                </ul>
+                <button id="restart">Return to Start</button>
+                <button id="newScores">Clear</button>
+            </div>
+            
+            
+        </section>
+
+        <!--For responses of 'correct', 'incorrect'-->
+        <p id="subtext"></p>
+
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

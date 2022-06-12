@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    background-color: #B4FCFC;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color:#FCE5AB;
+    width: 60%;
+    margin: auto;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+}
+
+#subtext {
+    font-size: 16pt;
+    background-color: #EED3FC;
+}
+
+main p {
+    font-size: 12pt;
+}
+
+.questionButton {
+    background-color: #D3FCDA;
+}
+
+#fillerText {
+    font-size: 14pt;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    visibility: collapse;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    text-align: center;
+    font-size: 17px;
+    background-color: lightblue;
+    display: block;
+    width: 27%;
+}
+
+#scoreShortcut {
+    width: 15%;
+    padding: 15px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+#timer {
+    font-size: 25px;
+    background-color: lightyellow;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 14px 20px;
+}
+
+#fillerText {
+    font-size: 18pt;
+}
