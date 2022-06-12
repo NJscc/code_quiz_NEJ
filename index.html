@@ -33,10 +33,10 @@
             <div id="Q1">
                 <ul>
                     <li>
-                        <button type="button" class="correctButton">Comma</button>
+                        <button type="button" class="correctButton">Period</button>
                     </li>
                     <li>
-                        <button type="button" class="incorrectButton">Period</button>
+                        <button type="button" class="incorrectButton">Comma</button>
                     </li>
                     <li>
                         <button type="button" class="incorrectButton">Hashtag or Pound symbol</button>
@@ -92,25 +92,28 @@
                         <button type="button" class="incorrectButton">Curled\Curly Brackets</button>
                     </li>
                     <li>
-                        <button type="button" class="correctButton">Square brackers</button>
+                        <button type="button" class="correctButton">Square brackets</button>
                     </li>
                     <li>
-                        <button type="button" class="incorrectButton">Angle BRackets</button>
+                        <button type="button" class="incorrectButton">Angle Brackets</button>
                     </li>
                 </ul>
             </div>
 
             <div id="submit">
-                <label for="">Please give a name for your score!</label>
-                <input id='nameSubmit' type="text" name="text">
+                <form action="" id="name_Form">
+                    <label for="">Please submit a username!</label>
+                    <input id='nameInput' type="text" name="text">
+                    <button id="submitName">Submit Your Name</button>
+                </form>
             </div>
 
             <div id="highscore">
-                <ul>
+                <ul id = 'scoreDisplayList'>
 
                 </ul>
                 <button id="restart">Return to Start</button>
-                <button id="newScores">Clear</button>
+                <button id="clear">Clear Scores</button>
             </div>
             
             
