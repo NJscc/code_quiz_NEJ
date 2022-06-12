@@ -82,11 +82,10 @@ function initiateQuiz() {
     page = page + 1;
     redesignPage();
     startTimer();
-    beginButton.setAttribute('display: none');
+    beginButton.setAttribute('style', 'display: none');
 }
 beginButton.addEventListener("click", initiateQuiz);
 
-console.log(page);
 
 //Initial Setup
 questionText.textContent = "Code Quiz";
@@ -101,16 +100,14 @@ function redesignPage () {
       questionText.textContent = "Code Quiz";
       secondText.textContent = "This is a short quiz on some simple code concepts. Press the button below to begin."
       clockQuiz.textContent = timer;
-
+      beginButton.setAttribute('style', 'display: block');
     }
 
 //Q1
     if (page === 1) {
       questionText.textContent = "Which character is used to denote custom classes in a CSS file?";
       secondText.textContent = "";
-      var list = document.getElementById("Q1");
-      list.setAttribute('display', 'visible');
-      console.log('help');
+      firstQ.setAttribute('style', 'visibility: visible');
     }
 
 //Q2

@@ -36,7 +36,7 @@ main p {
 div {
     display: flex;
     flex-direction: column;
-    visibility: collapse;
+    visibility: hidden;
 }
 
 ul {
@@ -49,13 +49,14 @@ button {
     background-color: lightblue;
     display: block;
     width: 27%;
+    margin: 10px auto 10px;
 }
 
 #scoreShortcut {
     width: 15%;
     padding: 15px;
-    margin-right: 30px;
     font-size: 25px;
+    margin-right: 20px;
 }
 
 #timer {
@@ -65,6 +66,8 @@ button {
     border-width: 2px;
     border-color: black;
     padding: 14px 20px;
+    margin: auto;
+    margin-left: 20px;
 }
 
 #fillerText {
